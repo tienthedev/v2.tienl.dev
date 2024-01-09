@@ -8,16 +8,7 @@ interface BlogPost {
 
 const Blog: React.FC = () => {
   const posts: BlogPost[] = [
-    {
-      img: "https://res.cloudinary.com/practicaldev/image/fetch/s--AuZFJnr6--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a8okx5rxzuh5fojibsy3.png",
-      title: "How to build a counter app with JavaScript",
-      url: "https://dev.to/coderamrin/how-to-build-a-counter-app-with-javascript-439p",
-    },
-    {
-      img: "https://res.cloudinary.com/practicaldev/image/fetch/s--FsJZ6lhI--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gv7y2de8kalk9l0820ag.jpg",
-      title: "JavaScript Ultimate Guide 02: The DOM",
-      url: "https://dev.to/coderamrin/javascript-ultimate-guide-02-the-dom-3ho9",
-    },
+    
   ];
 
   return (
