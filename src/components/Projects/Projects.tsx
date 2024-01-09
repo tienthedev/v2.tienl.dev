@@ -1,37 +1,36 @@
-import React from 'react'
+import React from 'react';
 
 const Projects: React.FC = () => {
   const projects = [
     {
       //img: devlog,
-      title: "devlog",
-      desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
-      live: "https://devlogg.onrender.com/",
-      code: "https://github.com/Coderamrin/devlog",
+      title: 'devlog',
+      desc: 'A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS',
+      live: 'https://devlogg.onrender.com/',
+      code: 'https://github.com/Coderamrin/devlog',
     },
     {
       //img: uilogs,
-      title: "uilogs",
-      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-      live: "https://uilogs.xyz/",
-      code: "https://github.com/Coderamrin/html-templates",
+      title: 'uilogs',
+      desc: 'Free website template directory for SaaS and Digital Agency. Built with Bootstrap, JQuery and JavaScript',
+      live: 'https://uilogs.xyz/',
+      code: 'https://github.com/Coderamrin/html-templates',
     },
     {
       //img: cssProjects,
-      title: "css projects",
-      desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-      live: "https://build-10-css-projects.netlify.app/",
-      code: "https://github.com/Coderamrin/build-10-css-projects",
+      title: 'css projects',
+      desc: 'Frontend Mentor challenge directory, solved with vanilla CSS',
+      live: 'https://build-10-css-projects.netlify.app/',
+      code: 'https://github.com/Coderamrin/build-10-css-projects',
     },
     {
       //img: getInspirred,
-      title: "get Inspirred",
-      desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
-      live: "https://get-inspirred.netlify.app/",
-      code: "https://github.com/Coderamrin/get-inspired",
+      title: 'get Inspirred',
+      desc: 'Quote search app. Used Quotable API for the quotes and React, Redux on the frontend',
+      live: 'https://get-inspirred.netlify.app/',
+      code: 'https://github.com/Coderamrin/get-inspired',
     },
-  ]; 
-  
+  ];
 
   return (
     <section className="bg-primary text-white px-5 py-32" id="projects">
@@ -54,7 +53,8 @@ const Projects: React.FC = () => {
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
-              <img src={project.img} alt={project.title} />
+              {/* The 'img' property is commented out in your original code */}
+              {/* <img src={project.img} alt={project.title} /> */}
               <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <p className="py-5 text-center font-bold px-2 text-white">
                   {project.desc}
@@ -82,4 +82,5 @@ const Projects: React.FC = () => {
     </section>
   );
 };
-export default Projects
+
+export default Projects;

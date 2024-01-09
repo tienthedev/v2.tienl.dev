@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Contact: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
         id="contact"
         className="container d-flex flex-wrap justify-content-between align-items-center custom-contact"
       >
-        <p className="text-4xl font-bold">LET'S CONNECT!</p>
+        <p className="text-4xl font-bold">LET&apos;S CONNECT!</p>
         <ul className="list-none">
           <li className="text-2xl">
             <a
