@@ -55,7 +55,9 @@ nav li a:hover {
   color: #7477FF;
 }
 
-
+.custom-contact-link {
+  color:#fff;
+}
 
 .custom-contact-link.text-decoration-none::after {
   content: "";
