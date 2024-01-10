@@ -12,8 +12,9 @@ const chivo_mono = Chivo_Mono({
   variable: '--font-chivo_mono',
 });
 export const metadata: Metadata = {
-  title: 'Portfolio',
+  title: 'Tien Le Portfolio',
   description: 'Portfolio',
+  icons: '/favicon.ico',
 }
 
 export default function RootLayout({
@@ -23,9 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-      </head>
+      
       <body className={chivo_mono.className}>
         {children}
         <Analytics/>
