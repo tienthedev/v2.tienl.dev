@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
           <li className="text-2xl">
             <a
               href="https://www.linkedin.com/in/tiendungdle/"
-              className="text-decoration-none text-light custom-contact-link"
+              className="text-decoration-none custom-contact-link"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
           <li className="text-2xl">
             <a
               href="https://github.com/flannelboy"
-              className="text-decoration-none text-light custom-contact-link"
+              className="text-decoration-none  custom-contact-link"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
           <li className="text-2xl">
             <a
               href="mailto:hello@tienl.dev"
-              className="text-decoration-none text-light custom-contact-link"
+              className="text-decoration-none custom-contact-link"
               target="_blank"
               rel="noopener noreferrer"
             >
