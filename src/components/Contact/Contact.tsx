@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
         id="contact"
         className="container d-flex flex-wrap justify-content-between align-items-center custom-contact"
       >
-        <p className="text-4xl">LET&apos;S CONNECT!</p>
+        <p className="text-4xl text-[#fff]">LET'S CONNECT!</p>
         <ul className="list-none">
           <li className="text-2xl">
             <a
