@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"; 
 
 interface BlogPost {
   img: string;
@@ -8,7 +9,7 @@ interface BlogPost {
 
 const Blog: React.FC = () => {
   const posts: BlogPost[] = [
-    
+    // Your blog posts data here
   ];
 
   return (
@@ -28,7 +29,12 @@ const Blog: React.FC = () => {
       <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
         {posts.map((item, index) => (
           <div key={index}>
-            <img src={item.img} alt={item.title} />
+            <Image
+              src={item.img}
+              alt={item.title}
+              width={500} // Set the width as per your design
+              height={300} // Set the height as per your design
+            />
             <h3 className="py-5 text-2xl">{item.title}</h3>
             <a
               href={item.url}

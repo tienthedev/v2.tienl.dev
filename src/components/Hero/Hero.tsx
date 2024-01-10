@@ -3,7 +3,7 @@ import React from "react";
 import {
   AiOutlineGithub,
   AiOutlineYoutube,
-  AiOutlineFacebook,
+  AiOutlineLinkedin,
 } from "react-icons/ai";
 
 const Hero: React.FC = () => {
@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              <AiOutlineFacebook size={40} />{" "}
+              <AiOutlineLinkedin size={40} />{" "}
             </a>
           </div>
 

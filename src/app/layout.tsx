@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Chivo_Mono } from 'next/font/google'
 import './globals.css'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
 
 
 const chivo_mono = Chivo_Mono({
@@ -23,6 +25,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={chivo_mono.className}>
         {children}
+        <Analytics/>
+        <SpeedInsights />
       </body>
     </html>
   )
