@@ -10,7 +10,7 @@ const About: React.FC = () => {
           </h2>
 
           <p className="pb-5 uppercase">
-          I'm a <span className="underline">full-stack developer</span> with three years of experience crafting web and mobile applications. 
+          I am a <span className="underline">full-stack developer</span> with three years of experience crafting web and mobile applications. 
           I specialize writing and testing <span className="underline">production-grade codes</span> that utilized mainstream technologies used in the industry. 
           I use <span className="underline">agile methodology</span> for swift adaptation to changes, ensuring timely delivery of deployable, high-quality software.
           </p>
@@ -28,7 +28,7 @@ const About: React.FC = () => {
           </p>
          
           <p className="pb-5 uppercase">
-            i'm currently a second-year <span className="underline">computer science student</span> with discipline in <span className="underline">machine learning and artificial intelligent</span> at the university of texas at arlington.
+            i am currently a second-year <span className="underline">computer science student</span> with discipline in <span className="underline">machine learning and artificial intelligent</span> at the university of texas at arlington.
           </p>
           <p className="pb-5 uppercase">
             you can find me building cars, motorcycles, computers and more software projects during my free time! 
