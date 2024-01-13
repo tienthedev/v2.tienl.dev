@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto grid md:grid-cols-1 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
-            Hi, I am <span className="text-accent">T</span>ien,
+            Hi, I am <span className="text-accent">Tien</span>,
             <br />
             Full-Stack Developer,
             <br />
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             </a>
             
             <a
-              href="https://www.facebook.com"
+              href="https://www.linkedin.com/in/tiendungdle/"
               className="pr-4 inline-block text-accent hover:text-white"
               target="_blank"
               rel="noopener noreferrer"

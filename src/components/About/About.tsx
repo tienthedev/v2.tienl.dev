@@ -9,24 +9,34 @@ const About: React.FC = () => {
             About Me
           </h2>
 
-          <p className="pb-5">
-            Hi, My Name Is Tien Le. I am a
-            Full-Stack Developer. I build beautiful websites with React and
-            Tailwind CSS.
-          </p>
-          <p className="pb-5">
-            I am proficient in React.js, Redux, Redux Tool
-            Kit, Axios, Tailwind CSS, SaSS, Css3, and many more.
+          <p className="pb-5 uppercase">
+          I'm a <span className="underline">full-stack developer</span> with three years of experience crafting web and mobile applications. 
+          I specialize writing and testing <span className="underline">production-grade codes</span> that utilized mainstream technologies used in the industry. 
+          I use <span className="underline">agile methodology</span> for swift adaptation to changes, ensuring timely delivery of deployable, high-quality software.
           </p>
 
-          <p>In the backend, I know Node.js, Express.js, MongoDB, and Mongoose</p>
-
-          <p>
-            In my spare time, I build cars, motorcycles, computers and circuit.
+          
+          <p className="pb-5 uppercase">
+            my choice of tech stack & languages: 
+            <br />
+            <ul className="list-disc list-inside">
+              <li><span className="underline">backend</span>: nodejs, nextjs, java, c, c++, c#, python</li>
+              <li><span className="underline">cloud</span>: aws, google cloud, mongodb</li>
+              <li><span className="underline">frontend</span>: react, typescript, angular, html, css, javascript, sass, bootstrap, tailwindcss, react-native, flutter</li>
+              <li><span className="underline">hosting & deployment</span>: vercel, github</li>
+            </ul>
+          </p>
+         
+          <p className="pb-5 uppercase">
+            i'm currently a second-year <span className="underline">computer science student</span> with discipline in <span className="underline">machine learning and artificial intelligent</span> at the university of texas at arlington.
+          </p>
+          <p className="pb-5 uppercase">
+            you can find me building cars, motorcycles, computers and more software projects during my free time! 
+            beside that, i enjoy learning about new technologies and helping people with their project/work.
           </p>
         </div>
 
-      
+
       </div>
     </section>
   );
