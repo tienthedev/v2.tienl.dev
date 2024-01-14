@@ -39,10 +39,10 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section className="bg-primary text-white px-5 py-32" id="projects">
+    <section className="bg-primary text-secondary px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className="about-info mb-5">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-secondary pb-2">
             Projects
           </h2>
 
@@ -65,18 +65,18 @@ const Projects: React.FC = () => {
                 height={500}
               />
               <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
-                <p className="py-5 text-center  px-2 text-white">
+                <p className="py-5 text-center  px-2 text-secondary">
                   {project.title}
                 </p>
 
-                <p className="py-5 text-center  px-2 text-white">
+                <p className="py-5 text-center  px-2 text-secondary">
                   {project.desc}
                 </p>
 
                 <div className="mx-auto">
                   <a
                     href={project.live}
-                    className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold"
+                    className="px-5 py-2 text-primary bg-white hover:bg-secondary mr-5 font-bold"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
                   </a>
                   <a
                     href={project.code}
-                    className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"
+                    className="px-5 py-2 text-primary bg-white hover:bg-secondary font-bold"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

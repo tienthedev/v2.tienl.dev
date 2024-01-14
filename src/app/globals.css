@@ -27,24 +27,13 @@ body {
 }
 
 
-.bg-primary {
-  background: #0F172A;
-}
 
-.bg-secondary {
-  background: #1E293B;
+.techstack-icon {
+  @apply w-12 h-12 m-2 inline-block;
 }
-
-.bg-accent {
-  background: #7477FF;
-}
-
-.text-accent {
-  color: #7477FF;
-} 
 
 .mobile-nav {
-  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-primary duration-500;
 } 
 
 nav li a {
@@ -52,7 +41,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #7477FF;
+  color: #FFD4D4;
 }
 
 .custom-contact-link {

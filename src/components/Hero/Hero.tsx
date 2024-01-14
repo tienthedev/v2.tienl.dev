@@ -7,7 +7,7 @@ import {
 
 const Hero: React.FC = () => {
   return (
-    <section className="bg-primary px-5 text-white py-32">
+    <section className="bg-primary px-5 text-secondary py-32">
       <div className="container mx-auto grid md:grid-cols-1 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
@@ -21,10 +21,10 @@ const Hero: React.FC = () => {
           </h1>
 
 
-          <div className="flex py-5 ">
+          <div className="flex py-5 text-secondary">
             <a
               href="https://github.com/flannelboy"
-              className="pr-4 inline-block text-accent hover:text-white"
+              className="pr-4 inline-block  hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             
             <a
               href="https://www.linkedin.com/in/tiendungdle/"
-              className="pr-4 inline-block text-accent hover:text-white"
+              className="pr-4 inline-block  hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
 
           <a
             href="/#projects"
-            className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
+            className=" btn bg-secondary  border-2 border-white text-primary px-6 py-3 hover:bg-transparent hover:text-secondary"
           >
             Browse Projects
           </a>

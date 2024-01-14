@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact: React.FC = () => {
   return (
-    <div className="container-fluid bg-[#001b33]">
+    <div className="container-fluid bg-primary">
       <div
         id="contact"
         className="container d-flex flex-wrap justify-content-between align-items-center custom-contact"

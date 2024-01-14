@@ -11,7 +11,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
-      <a href="/" className="logo text-2xl font-bold text-accent">
+      <a href="/" className="logo text-2xl font-bold text-white">
         TL
       </a>
 
@@ -63,11 +63,7 @@ const Header: React.FC = () => {
               Contact
             </a>
           </li>
-          <li>
-            <a href="/#resume" onClick={handleLinkClick}>
-              Resume
-            </a>
-          </li>
+          
         </ul>
       </nav>
 

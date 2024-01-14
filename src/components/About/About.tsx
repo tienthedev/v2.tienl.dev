@@ -1,42 +1,99 @@
 import React from "react";
+import {
+  FaReact,
+  FaBootstrap,
+  FaGithub,
+  FaAws,
+  FaHtml5,
+  FaCss3,
+  FaVuejs,
+  FaFigma,
+  FaAngular,
+  FaSass,
+  FaNodeJs,
+  FaPython,
+  FaJava,
+  FaNpm,
+  FaGit,
+
+} from "react-icons/fa6";
+import {
+  SiTypescript,
+  SiJavascript,
+  SiTailwindcss,
+  SiGooglecloud,
+
+} from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+
+
 
 const About: React.FC = () => {
   return (
-    <section className="bg-black text-white px-5 py-32" id="about">
-      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
-        <div className="about-info">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
+    <section className="bg-secondary text-primary px-5 py-32" id="about">
+      <div className="container mx-auto  items-center justify-center md:justify-between">
+        <div>
+          <p className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-primary pb-2">
             About Me
-          </h2>
-
-          <p className="pb-5 uppercase">
-          I am a <span className="underline">full-stack developer</span> with three years of experience crafting web and mobile applications. 
-          I specialize writing and testing <span className="underline">production-grade codes</span> that utilized mainstream technologies used in the industry. 
-          I use <span className="underline">agile methodology</span> for swift adaptation to changes, ensuring timely delivery of deployable, high-quality software.
           </p>
 
-          
           <p className="pb-5 uppercase">
-            my choice of tech stack & languages: 
-            <br />
-            <ul className="list-disc list-inside">
-              <li><span className="underline">backend</span>: nodejs, nextjs, java, c, c++, c#, python</li>
-              <li><span className="underline">cloud</span>: aws, google cloud, mongodb</li>
-              <li><span className="underline">frontend</span>: react, typescript, angular, html, css, javascript, sass, bootstrap, tailwindcss, react-native, flutter</li>
-              <li><span className="underline">hosting & deployment</span>: vercel, github</li>
-            </ul>
+            I am a full-stack developer , specialized in writing and testing production-grade codes that utilized mainstream technologies used in the industry to create robust and high-performance applications.
           </p>
-         
+
           <p className="pb-5 uppercase">
-            i am currently a second-year <span className="underline">computer science student</span> with discipline in <span className="underline">machine learning and artificial intelligent</span> at the university of texas at arlington.
+            i am currently a sophomore computer science student with machine learning and artificial intelligent discipline at the university of texas at arlington.
           </p>
-          <p className="pb-5 uppercase">
-            you can find me building cars, motorcycles, computers and more software projects during my free time! 
-            beside that, i enjoy learning about new technologies and helping people with their project/work.
-          </p>
+
+
+
         </div>
+        <div>
+          <p className="text-4xl font-bold mb-5 border-b-[5px] w-[300px] border-primary pb-2">
+            My Tech-Stack
+          </p>
+          <div className="container lg:flex justify-center py-5 text-primary">
+            <div className="m-2">
+              <p className="text-2xl">
+                Front End:
+              </p>
+              <FaAngular className="techstack-icon" />
+              <FaBootstrap className="techstack-icon" />
+              <FaCss3 className="techstack-icon" />
+              <FaFigma className="techstack-icon" />
+              <FaHtml5 className="techstack-icon" />
+              <FaReact className="techstack-icon" />
+              <FaSass className="techstack-icon" />
+              <FaVuejs className="techstack-icon" />
+              <TbBrandNextjs className="techstack-icon" />
+              <SiTailwindcss className="techstack-icon" />
+              <FaNodeJs className="techstack-icon" />
 
+            </div>
+            
+            <div className="m-2">
+              <p className="text-2xl">
+                Back End:
+              </p>
+              <FaJava className="techstack-icon" />
+              <FaNodeJs className="techstack-icon" />
+              <FaPython className="techstack-icon" />
+              <SiJavascript className="techstack-icon" />
+              <SiTypescript className="techstack-icon" />
+            </div>
+            <div className="m-2">
+              <p className="text-2xl">
+                Hosting, Deployment, and Databases:
+              </p>
+              <FaAws className="techstack-icon" />
+              <SiGooglecloud className="techstack-icon" />
+              <FaNpm className="techstack-icon" />
+              <FaGithub className="techstack-icon" />
+              <FaGit className="techstack-icon" />
+            </div>
 
+          </div>
+        </div>
       </div>
     </section>
   );
