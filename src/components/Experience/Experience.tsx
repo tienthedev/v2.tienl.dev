@@ -21,26 +21,27 @@ const Experience: React.FC = () => {
           </h2>
         </div>
       </div>
-
-      <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
-        {posts.map((item, index) => (
-          <div key={index}>
-            <Image
-              src={item.img}
-              alt={item.title}
-              width={500} // Set the width as per your design
-              height={300} // Set the height as per your design
-            />
-            <h3 className="py-5 text-2xl">{item.title}</h3>
-            <a
-              href={item.url}
-              className="btn bg-accent border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
-            >
-              Read More
-            </a>
-          </div>
-        ))}
-      </div>
+      
+        <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
+          <p>COMING SOON, CHECK OUT MY <a href="/#contact" className="underline">SOCIAL</a> OR <a href="/#projects" className="underline">PROJECTS</a> IN THE MEANTIME!</p>
+          {posts.map((item, index) => (
+            <div key={index}>
+              <Image
+                src={item.img}
+                alt={item.title}
+                width={500} // Set the width as per your design
+                height={300} // Set the height as per your design
+              />
+              <h3 className="py-5 text-2xl">{item.title}</h3>
+              <a
+                href={item.url}
+                className="btn bg-accent border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
+              >
+                Read More
+              </a>
+            </div>
+          ))}
+        </div>
     </section>
   );
 };

@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
           </h2>
 
           <p className="pb-5">
-            Some of my best projects, hover on the image to see the live demo.
+            HOVER ON THE IMAGE TO SEE THE LIVE DEMO AND SOURCE CODE.
           </p>
         </div>
 
