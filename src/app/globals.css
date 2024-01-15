@@ -33,7 +33,7 @@ body {
 }
 
 .mobile-nav {
-  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-primary duration-500;
+  @apply block md:hidden fixed text-3xl top-10 py-2 w-full h-full bg-primary duration-500;
 } 
 
 nav li a {
@@ -44,9 +44,7 @@ nav li a:hover {
   color: #FFD4D4;
 }
 
-.custom-contact-link {
-  color:#fff;
-}
+
 
 .custom-contact-link.text-decoration-none::after {
   content: "";
@@ -56,10 +54,9 @@ nav li a:hover {
   background-color: #fff;
   transition: width 0.3s ease-in-out; /* Set the transition for the width property */
 }
-.custom-contact{
-  padding-top: 5%;
-}
+
 
 .custom-contact-link.text-decoration-none:hover::after {
-  width: 50%;
+  width: 100%;
+  /* When hovering over the button, transition the width to 100% */
 }

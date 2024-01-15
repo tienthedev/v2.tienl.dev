@@ -42,12 +42,12 @@ const Projects: React.FC = () => {
     <section className="bg-primary text-secondary px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className="about-info mb-5">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-secondary pb-2">
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-fit border-secondary pb-2">
             Projects
           </h2>
 
           <p className="pb-5">
-            THESE ARE MY PROJECTS IN CHRONOLOGICAL ORDER FROM BEGIN TO CURRENT STATE OF MY CAREER
+            Some of my best projects, hover on the image to see the live demo.
           </p>
         </div>
 

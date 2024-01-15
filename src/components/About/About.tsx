@@ -33,12 +33,12 @@ const About: React.FC = () => {
     <section className="bg-secondary text-primary px-5 py-32" id="about">
       <div className="container mx-auto  items-center justify-center md:justify-between">
         <div>
-          <p className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-primary pb-2">
+          <p className="text-4xl font-bold mb-5 border-b-[5px] w-fit border-primary pb-2">
             About Me
           </p>
 
           <p className="pb-5 uppercase">
-            I am a full-stack developer , specialized in writing and testing production-grade codes that utilized mainstream technologies used in the industry to create robust and high-performance applications.
+            I specialized in writing and testing production-grade codes that utilized mainstream technologies used in the industry to create robust and high-performance applications.
           </p>
 
           <p className="pb-5 uppercase">
@@ -55,7 +55,7 @@ const About: React.FC = () => {
           <div className="container lg:flex justify-center py-5 text-primary">
             <div className="m-2">
               <p className="text-2xl">
-                Front End:
+                FRONT-END
               </p>
               <FaAngular className="techstack-icon" />
               <FaBootstrap className="techstack-icon" />
@@ -73,17 +73,16 @@ const About: React.FC = () => {
             
             <div className="m-2">
               <p className="text-2xl">
-                Back End:
+                BACK-END
               </p>
               <FaJava className="techstack-icon" />
-              <FaNodeJs className="techstack-icon" />
               <FaPython className="techstack-icon" />
               <SiJavascript className="techstack-icon" />
               <SiTypescript className="techstack-icon" />
             </div>
             <div className="m-2">
               <p className="text-2xl">
-                Hosting, Deployment, and Databases:
+                HOSTING, DEPLOYMENT & DATABASE
               </p>
               <FaAws className="techstack-icon" />
               <SiGooglecloud className="techstack-icon" />
@@ -91,7 +90,6 @@ const About: React.FC = () => {
               <FaGithub className="techstack-icon" />
               <FaGit className="techstack-icon" />
             </div>
-
           </div>
         </div>
       </div>

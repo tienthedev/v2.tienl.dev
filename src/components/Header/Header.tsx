@@ -20,22 +20,22 @@ const Header: React.FC = () => {
         <ul className="flex">
           <li>
             <a href="/#about" onClick={handleLinkClick}>
-              About
+              ABOUT
             </a>
           </li>
           <li>
             <a href="/#projects" onClick={handleLinkClick}>
-              Projects
+              PROJECTS
             </a>
           </li>
           <li>
-            <a href="/#blog" onClick={handleLinkClick}>
-              Blog
+            <a href="/#experience" onClick={handleLinkClick}>
+              EXPERIENCE
             </a>
           </li>
           <li>
             <a href="/#contact" onClick={handleLinkClick}>
-              Contact
+              CONTACT
             </a>
           </li>
         </ul>
@@ -45,22 +45,22 @@ const Header: React.FC = () => {
         <ul className="flex flex-col">
           <li>
             <a href="/#about" onClick={handleLinkClick}>
-              About
+              ABOUT
             </a>
           </li>
           <li>
             <a href="/#projects" onClick={handleLinkClick}>
-              Projects
+              PROJECTS
             </a>
           </li>
           <li>
-            <a href="/#blog" onClick={handleLinkClick}>
-              Blog
+            <a href="/#experience" onClick={handleLinkClick}>
+            EXPERIENCE
             </a>
           </li>
           <li>
             <a href="/#contact" onClick={handleLinkClick}>
-              Contact
+              CONTACT
             </a>
           </li>
           

@@ -7,7 +7,7 @@ interface BlogPost {
   url: string;
 }
 
-const Blog: React.FC = () => {
+const Experience: React.FC = () => {
   const posts: BlogPost[] = [
     // Your blog posts data here
   ];
@@ -15,15 +15,11 @@ const Blog: React.FC = () => {
   return (
     <section className="bg-secondary text-primary px-5 py-32" id="blog">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
-        <div className="about-info mb-5">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[120px] border-primary pb-2">
-            Blogs
+        <div className="mb-5">
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-fit border-primary pb-2">
+            Experiences
           </h2>
-
-          <p className="pb-5">Some of my best blogs.</p>
         </div>
-
-        <div></div>
       </div>
 
       <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
@@ -49,4 +45,4 @@ const Blog: React.FC = () => {
   );
 };
 
-export default Blog;
+export default Experience;

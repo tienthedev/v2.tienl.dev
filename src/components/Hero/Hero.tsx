@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
             href="/#projects"
             className=" btn bg-secondary  border-2 border-white text-primary px-6 py-3 hover:bg-transparent hover:text-secondary"
           >
-            Browse Projects
+            BROWSE PROJECTS
           </a>
         </div>
 
