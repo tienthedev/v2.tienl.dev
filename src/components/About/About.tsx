@@ -30,7 +30,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 const About: React.FC = () => {
   return (
-    <section className="bg-secondary text-primary px-5 py-32" id="about">
+    <div className="bg-secondary text-primary px-5 py-32" id="about">
       <div className="container mx-auto  items-center justify-center md:justify-between">
         <div>
           <p className="text-4xl font-bold mb-5 border-b-[5px] w-fit border-primary pb-2">
@@ -93,7 +93,7 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -1,36 +1,34 @@
 
 import React from 'react';
-import Image from 'next/image';  // Import the Image component
-import remyshop from '../../assets/remyshop.png';
-import tienldev from '../../assets/tienldev.png';
-import tdpos from '../../assets/tdpos.png';
-import invento from '../../assets/invento.png';
+import { FaGithub } from 'react-icons/fa';
 
 const Projects: React.FC = () => {
   const projects = [
     {
-      img: remyshop,
+      title: 'TIENL.DEV FULLSTACK',
+      desc: 'TIENL.DEV PORTFOLIO (VERSION 2)',
+      year: '2024',
+      code: 'https://github.com/flannelboy/tienl.dev_portfolio',
+    },
+    {
       title: 'REMYUS.SHOP',
       desc: 'AN ONLINE SHOP',
       year: '2023',
       code: 'https://github.com/flannelboy/remyus.shop',
     },
     {
-      img: tienldev,
-      title: 'TIENL.DEV',
+      title: 'TIENL.DEV FRONTEND',
       desc: 'A PERSONAL PORTFOLIO (VERSION 1)',
       year: '2022',
       code: 'https://github.com/flannelboy/tienl.dev',
     },
     {
-      img: tdpos,
       title: 'TD POS',
       desc: 'A POINT OF SALE SYSTEM (VERSION 1)',
       year: '2023',
       code: 'https://github.com/flannelboy/PointOfSales',
     },
     {
-      img: invento,
       title: 'INVENTO/TD LIBRARY',
       desc: 'AN INVENTORY MANAGEMENT SYSTEM (VERSION 1, 2)',
       year: '2023',
@@ -43,7 +41,7 @@ const Projects: React.FC = () => {
     <div className="bg-secondary text-primary px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className="about-info mb-5">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-fit border-secondary pb-2">
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-fit border-primary pb-2">
             Projects
           </h2>
         </div>
@@ -52,13 +50,13 @@ const Projects: React.FC = () => {
       <div className="container mx-auto grid gap-10">
         <table className="w-full">
           <tbody>
-            <tr className='font-bold'>
+            <tr className='font-bold text-2xl'>
               <td>Year</td>
               <td>Project</td>
               <td>Link</td>
             </tr>
             {projects.map((project, i) => (
-              <tr key={i}>
+              <tr className='text-lg border-b-[1px] border-primary' key={i}>
                 <td>{project.year}</td>
                 <td>{project.title}</td>
                 <td>
@@ -67,10 +65,12 @@ const Projects: React.FC = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    GitHub
+                    <FaGithub className="techstack-icon" />
                   </a>
                 </td>
+
               </tr>
+              
             ))}
           </tbody>
         </table>
