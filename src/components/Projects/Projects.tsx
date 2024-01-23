@@ -11,6 +11,12 @@ const Projects: React.FC = () => {
       code: 'https://github.com/flannelboy/tienl.dev_portfolio',
     },
     {
+      title: 'TD HOTEL MANAGEMENT',
+      desc: 'A HOTEL MANAGEMENT SYSTEM (VERSION 1)',
+      year: '2023',
+      code: 'https://github.com/flannelboy/tdhotelmanagement'
+    },
+    {
       title: 'REMYUS.SHOP',
       desc: 'AN ONLINE SHOP',
       year: '2023',
@@ -32,7 +38,7 @@ const Projects: React.FC = () => {
       title: 'INVENTO/TD LIBRARY',
       desc: 'AN INVENTORY MANAGEMENT SYSTEM (VERSION 1, 2)',
       year: '2023',
-      code: 'https://github.com/flannelboy/tienl.dev',
+      code: 'https://github.com/flannelboy/SaleInventory',
     },
 
   ];
