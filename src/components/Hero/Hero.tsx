@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             <br/>
           </h1>
           <h1 className="text-xl lg:text-xl">
-            Happy birthday Mom! 🎂 & Happy Mother's Day! 🌹
+            Happy Birthday & Happy Mother &apos s Day, Mom!
             <br/>
 
           </h1>
