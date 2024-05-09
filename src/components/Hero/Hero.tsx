@@ -1,10 +1,8 @@
 import React from "react";
-import mom from "../../assets/mom.jpg";
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
 } from "react-icons/ai";
-import Image from "next/image";
 
 const Hero: React.FC = () => {
   return (
