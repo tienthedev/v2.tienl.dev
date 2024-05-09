@@ -9,7 +9,7 @@ import Image from "next/image";
 const Hero: React.FC = () => {
   return (
     <section className="bg-primary px-5 text-secondary py-32 w-full">
-      <div className="container-fluid mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
+      <div className="container mx-auto grid md:grid-cols-1 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
             Hi, I am <span className="text-accent">Tien</span>,
@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             <br/>
           </h1>
           <h1 className="text-xl lg:text-xl">
-            Happy Birthday & Happy Mother&apos;s Day, Mom!
+            Happy Mother&apos;s Day!
             <br/>
 
           </h1>
@@ -57,15 +57,7 @@ const Hero: React.FC = () => {
             BROWSE PROJECTS
           </a>
         </div>
-        <div className="justify-items-center">
-          <Image
-              src={mom}
-              width={500}
-              height={500}
-              alt="Picture of the Mom"
-              className="rounded-full "
-          />
-        </div>
+
 
       </div>
     </section>
